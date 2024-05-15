@@ -43,10 +43,10 @@ library
 
   build-depends:       base >=4.9 && < 5,
                        base-unicode-symbols ==0.2.*,
-                       time >= 1.4 && < 1.12,
+                       time >= 1.4,
                        parsec ==3.1.*,
                        syb >=0.3.7 && < 0.8,
-                       template-haskell >=2.0.0.0 && <2.19
+                       template-haskell
 
   GHC-Options:         -O2
   default-language:    Haskell2010
